@@ -1,0 +1,85 @@
+.container{
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    width: 75%;
+}
+.heading{
+    justify-content: center;
+}
+#create{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+#result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+#result img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 5px 0;
+    box-shadow: 10px 10px 10px rgba(22, 21, 21, 0.87);
+}
+.container2{
+    width: 75%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+.second{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.second img{
+    height: 150px;
+    width:150px;
+    margin: 10px;
+}
+.second img:hover{
+    box-shadow: 10px 10px 10px 10px rgba(69, 93, 228, 0.904);
+    size: 155px;
+    cursor: pointer;
+}
+.challenge4{
+    text-align: center;
+    width: 75%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.button_container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 50px;
+}
+.button_container button{
+    margin: 8px;
+    border-radius: 3px;
+}
+#btn0{
+    margin: 10px;
+    border-radius: 3px;
+}
+.btn-primary{
+    background-color: blue;
+    color:white;
+}
+.btn-danger{
+    background-color: red;
+    color:white;
+}
+.btn-warning{
+    background-color: yellow;
+    color:black;
+}
+.btn-success{
+    background-color: green;
+    color:white;
+}
